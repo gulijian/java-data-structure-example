@@ -15,3 +15,5 @@
 * 红黑树
 * 哈希表
 * ....
+持续更新中，欢迎大家关注公众号：小白程序之路（whiteontheroad），第一时间获取最新信息！！！
+![小白程序之路](http://gulj.cn/css/images/qrcode_for_gh.jpg)
