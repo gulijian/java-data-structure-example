@@ -1,4 +1,4 @@
-package com.gulj.data.structure.example;
+package com.gulj.data.structure.array.example;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @author: gulj
  * @create: 2019/3/10 11:12 AM
  **/
-public class ArrayExample {
+public class Array {
     /**
      * 存放数组的元素
      */
@@ -23,7 +23,7 @@ public class ArrayExample {
      *
      * @param capacity 容量
      */
-    public ArrayExample(int capacity) {
+    public Array(int capacity) {
         data = new int[capacity];
         size = 0;
     }
@@ -31,7 +31,7 @@ public class ArrayExample {
     /**
      * 无参构造函数，指定默认数组容量capacity=10
      */
-    public ArrayExample() {
+    public Array() {
         this(10);
     }
 
@@ -193,7 +193,7 @@ public class ArrayExample {
 
     @Override
     public String toString() {
-        return "ArrayExample{" +
+        return "Array{" +
                 "data=" + Arrays.toString(data) +
                 ", size=" + size + ",capacity=" + data.length +
                 '}';

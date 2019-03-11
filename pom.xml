@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>data-structure-array-example</module>
+        <module>data-structure-stack-example</module>
     </modules>
     <packaging>pom</packaging>
 

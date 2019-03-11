@@ -1,4 +1,4 @@
-package com.gulj.data.structure.example;
+package com.gulj.data.structure.array.example;
 
 import org.junit.Test;
 
@@ -8,12 +8,12 @@ import org.junit.Test;
  * @create: 2019/3/10 4:10 PM
  **/
 
-public class ArrayExampleTest {
+public class ArrayTest {
 
     @Test
     public void testAdd() {
         // 初始化数组容量大小为5，目前数组中没有任何元素
-        ArrayExample arrayExample = new ArrayExample(5);
+        Array arrayExample = new Array(5);
         System.out.println(arrayExample);
 
         // 向数组中欧添加第一个元素
