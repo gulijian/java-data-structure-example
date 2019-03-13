@@ -115,6 +115,25 @@ public class GenericsArray<E> {
     }
 
     /**
+     * 获取数组中最后一个元素
+     *
+     * @return
+     */
+    public E getLast() {
+        return get(size - 1);
+    }
+
+    /**
+     * 获取数组中第一个元素
+     *
+     * @return
+     */
+    public E getFirst() {
+        return get(0);
+    }
+
+
+    /**
      * 修改index索引位置的元素为element
      *
      * @param index   索引
@@ -192,6 +211,17 @@ public class GenericsArray<E> {
     public E removeLast() {
         return remove(size - 1);
     }
+
+
+    /**
+     * 判断数组是否为空
+     *
+     * @return
+     */
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
 
     @Override
     public String toString() {

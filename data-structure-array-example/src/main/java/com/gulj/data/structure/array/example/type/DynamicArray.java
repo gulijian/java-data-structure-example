@@ -16,6 +16,14 @@ import java.util.Arrays;
 @SuppressWarnings("all")
 public class DynamicArray<E> extends GenericsArray<E> {
 
+    public DynamicArray() {
+
+    }
+
+    public DynamicArray(int capacity) {
+        super(capacity);
+    }
+
     /**
      * 重写泛型化后的静态数组添加方法，当数组满时，进行扩容操作，实现动态数组
      *
