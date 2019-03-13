@@ -25,12 +25,12 @@ public class DynamicArrayQueueTest {
         enQueueElements.forEach(x -> dynamicArrayQueue.enqueue(x));
         System.out.println("元素A、B、C入队：" + dynamicArrayQueue);
 
-        // 此时如果又有一个元素D入队，会发生扩容操作 （size == capacity  ）进行缩容
+        // 此时如果又有一个元素D入队，会发生扩容操作 （size == capacity）进行扩容
         dynamicArrayQueue.enqueue("D");
         System.out.println("元素D入队，发生扩容：" + dynamicArrayQueue);
 
 
-        // 元素A出队，会发生缩容操作（size == capacity /2 ）
+        // 元素A出队，会发生缩容操作（size == capacity / 2）进行缩容
         dynamicArrayQueue.dequeue();
         System.out.println("元素A出队，发生缩容：" + dynamicArrayQueue);
 
