@@ -11,6 +11,7 @@
         <module>data-structure-array-example</module>
         <module>data-structure-stack-example</module>
         <module>data-structure-queue-example</module>
+        <module>data-structure-linkedlist-example</module>
     </modules>
     <packaging>pom</packaging>
 
